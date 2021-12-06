@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Running pre-commit hook"
+./tests/circleci-validate.sh
