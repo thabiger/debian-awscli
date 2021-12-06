@@ -2,7 +2,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: thabiger/docker-awscli
+      IMAGE_NAME: thabiger/debian-awscli
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
